@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+</head>
+
+<body class="bg-sky-900 text-white">
+ 
+    <ul id="mobile-menu"
+        class="fixed top-0 left-0 w-full h-full bg-sky-800 flex flex-col items-center justify-center gap-8 text-base transform -translate-x-full transition-transform duration-500 z-50">
+    </ul>
+    
+
+    <script src="js/snowflake.js"></script>
+    <script src="js/typewriter.js"></script>
+
+    <script src="components/nav.js"></script>
+    <script>
+        window.addEventListener("load", () => {
+      
+        });
+
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeMenuBtn = document.getElementById("close-menu");
+
+       
+        async function loadComponent(id, content) {
+            document.getElementById(id).innerHTML = content;
+        }
+
+        loadComponent('nav-placeholder', navigation());
+        loadComponent('mobile-menu',navigationMobile())
+    </script>
+</body>
+
+</html> -->
+
